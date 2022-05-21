@@ -49,7 +49,7 @@ const Instruments = () => {
           ))}
         </div>
 
-        <button onClick={() => handelChooseOne(cart)}>Choose One Items</button>
+        <button onClick={() => handelChooseOne(cart)}>Choose One</button>
         <button onClick={() => handelRemoveToCart(cart)}>RemoveItems</button>
         <div>{<RandomItem randomItem={randomItem}></RandomItem>}</div>
       </div>

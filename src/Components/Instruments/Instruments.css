@@ -8,3 +8,19 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
+@media only screen and (max-width: 1024px) {
+  .instrument-container {
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .instrument-container {
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+}

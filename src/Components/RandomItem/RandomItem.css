@@ -1,0 +1,9 @@
+.selected-items {
+  display: flex;
+  align-items: center;
+}
+.selected-items img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

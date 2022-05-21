@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Instrument.css";
 const Instrument = (props) => {
-  const { handelAddToCart, instrument } = props;
+  const { handelAddToCart,instrument } = props;
   const { image, name, price } = instrument;
   return (
     <div className="single-container">
@@ -15,6 +15,9 @@ const Instrument = (props) => {
       <button onClick={() => handelAddToCart(instrument)}>
         Add To Cart <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
       </button>
+      <div>
+        
+      </div>
     </div>
   );
 };

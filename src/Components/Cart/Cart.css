@@ -1,0 +1,9 @@
+.single-cart-container {
+  display: flex;
+  align-items: center;
+}
+.single-cart-container img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

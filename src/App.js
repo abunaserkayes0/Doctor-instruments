@@ -1,6 +1,6 @@
-import './App.css';
-import Header from './Components/Header/Header';
-import Instruments from './Components/Instruments/Instruments';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Instruments from "./Components/Instruments/Instruments";
 
 function App() {
   return (

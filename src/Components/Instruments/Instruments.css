@@ -1,0 +1,10 @@
+.instruments-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.instrument-container {
+  margin: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}

@@ -1,0 +1,23 @@
+.single-container {
+  background-color: lightblue;
+  border: 2px solid lightgrey;
+  padding: 5px;
+}
+.single-container img {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.single-container button {
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+}
+.single-container button:hover {
+  background-color: lightgoldenrodyellow;
+}
+h4 {
+  text-transform: uppercase;
+}
